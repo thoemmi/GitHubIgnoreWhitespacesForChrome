@@ -3,6 +3,7 @@
   "version": "0.1",
   "manifest_version": 2,
   "description": "Forces diff views on GitHub to ignore whitespaces.",
+  "homepage_url": "https://github.com/thoemmi/GitHubIgnoreWhitespacesForChrome",
   "icons": { 
 	"16": "icon16x16.png", 
 	"48": "icon48x48.png", 
