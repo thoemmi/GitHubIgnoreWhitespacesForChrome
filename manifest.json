@@ -10,7 +10,6 @@
   "permissions": [
 	"webRequest", 
 	"webRequestBlocking", 
-	"background", 
 	"https://github.com/"],
   "background": { 
 	"scripts": [ "jsuri-1.1.1.min.js", "background.js" ]
