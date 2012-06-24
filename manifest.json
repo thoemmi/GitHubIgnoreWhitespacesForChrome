@@ -1,0 +1,7 @@
+{
+  "name": "Ignore whitespaces on GitHub",
+  "version": "0.1",
+  "description": "The first extension that I made.",
+  "permissions": ["webRequest", "webRequestBlocking", "background", "https://github.com/"],
+  "background": { "page": "background.html" }
+}
