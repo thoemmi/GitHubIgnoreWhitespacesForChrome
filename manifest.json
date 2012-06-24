@@ -1,7 +1,17 @@
 {
   "name": "Ignore whitespaces on GitHub",
   "version": "0.1",
-  "description": "The first extension that I made.",
-  "permissions": ["webRequest", "webRequestBlocking", "background", "https://github.com/"],
-  "background": { "page": "background.html" }
+  "manifest_version": 2,
+  "description": "Forces diff views on GitHub to ignore whitespaces.",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+	"webRequest", 
+	"webRequestBlocking", 
+	"background", 
+	"https://github.com/"],
+  "background": { 
+	"scripts": [ "jsuri-1.1.1.min.js", "background.js" ]
+  }
 }

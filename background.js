@@ -1,6 +1,3 @@
-<!-- http://code.google.com/p/jsuri/ -->
-<script type="text/javascript" src="jsuri-1.1.1.min.js"></script>
-
 chrome.webRequest.onBeforeRequest.addListener(
   function(req) {
     //console.log( "onBeforeRequest", req.url );
