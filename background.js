@@ -14,8 +14,8 @@ chrome.webRequest.onBeforeRequest.addListener(
     urls: [
       "https://github.com/*/commit/*",
       "https://github.com/*/compare/*",
-    ],
-    types: ["main_frame"]
+	  "https://github.com/*/pull/*"
+    ]
   },
   // extraInfoSpec
   ["blocking"]);
